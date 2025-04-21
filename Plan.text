@@ -1,0 +1,42 @@
+# Phase 1
+
+The following steps make up the minimal viable product (MVP)
+
+1. Home screen
+    - Create new roster
+    - Load existing roster
+    - Settings (placeholder for later)
+
+2. Roster Builder
+    - Choose warband faction
+    - Add/Remove units
+    - Show points total
+    - Limit to max points
+    - Tap a unit -> show its stats/abilities
+
+3. Roster view
+    - Clean list view
+    - Export to PDF or save locally (advanced/later)
+
+4. Offline-first (no account needed)
+
+# Phase 2 - Make it look good
+    - Add icones and visuals per unit (gear, type, etc)
+    - Color themes based on warband
+    - Animations / Transitions
+    - Unit filtering / sorting
+
+# Phase 3 - Advaned features
+    - Save / Load rosters to local storage
+    - Custom warbands (user-defined)
+    - Share roster links or QR codes
+    - Campaign / XP tracking
+    - Print / Export PDF
+
+Tools to thing about
+1. Expo - Easiest way to start a React Native project.
+2. React Navigation - Add screens and routing
+3. AsyncStorage - Sava data locally on device
+4. Zustand / Redux - (Optional) Managing state
+5. React Native Paper or Tailwind - Prebuilt components / UI library
+6. EAS Build (by expo) - Build APK / IPA for actual phones
